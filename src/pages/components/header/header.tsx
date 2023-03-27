@@ -1,5 +1,6 @@
 import { Navbar, Text } from "@nextui-org/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
 
@@ -21,7 +22,9 @@ export default function Header() {
                         height={40}
                         className="mr-2"
                     />
-                    <Text className="font-bold"><a href="/">tobsey |</a></Text>
+                    <Link href={'/'}>
+                        <Text className="font-bold">tobsey |</Text>
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Content hideIn="xs">
                     <Navbar.Link aria-label="Home" href="/">Home</Navbar.Link>
