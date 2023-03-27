@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+
+  background-color: hsl(30, 38%, 92%);
+}
+
+@media (min-width: 768px){
+.md\:wrapper {
+        width: 550px!important;
+}
+
+}
