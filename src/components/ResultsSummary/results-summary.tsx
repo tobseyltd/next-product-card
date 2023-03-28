@@ -58,9 +58,9 @@ export default function ResultsSummary({
 
     return (
 
-        <div className="inline-block wrapper md:flex md:w-6/12 shadow-lg shadow-light-royal-blue/20 rounded-3xl">
+        <div className="inline-block wrapper md:flex md:w-6/12 shadow-lg bg-white shadow-light-royal-blue/20  mt-5 md:mt-0 rounded-3xl">
 
-            <div className="result relative z-20 md:rounded-l-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue px-12 py-10 mt-5 md:mt-0 md:w-3/6 flex flex-col items-center ">
+            <div className="result relative z-20 md:rounded-3xl rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue px-12 py-10 md:w-3/6 flex flex-col items-center ">
                 <p className="text-xl text-slate-400 font-medium pb-6">Your Result</p>
 
                 <div className="result-numbers bg-gradient-to-b from-violet-blue to-persian-blue rounded-full p-10 w-2/4 md:w-5/6 flex-col flex items-center ">
@@ -72,7 +72,7 @@ export default function ResultsSummary({
                 <p className="text-slate-400 leading-4 text-center">You scored higher than 65% of the people who have taken these tests.</p>
             </div>
 
-            <div className="summary h-96 md:h-full md:w-3/6 flex flex-col justify-between px-5 py-10 -mt-5 md:-mt-0 bg-white md:rounded-r-3xl">
+            <div className="summary h-96 md:h-full md:w-3/6 flex flex-col justify-between px-5 py-10 bg-white md:rounded-r-3xl rounded-b-3xl">
                 <p className="text-xl font-medium pb-3">Summary</p>
 
                 <div className="reaction flex bg-light-red/10 rounded-lg px-3 py-1 justify-between">
