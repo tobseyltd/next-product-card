@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import ProductCard from '@/components/ProductPreviewCard/preview-card'
+import ResultsSummary from '@/components/ResultsSummary/results-summary'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,14 +16,7 @@ export default function Home() {
       </Head>
       <main className="md:w-screen md:h-screen flex flex-row justify-center items-center">
 
-        <ProductCard
-          imgSrc={'/media/image-product-desktop.jpg'}
-          imgAlt={'Gabrielle Essence Eau De Parfum'}
-          imgSize={300}
-          prodCat={'Perfume'}
-          prodTitle={'Gabrielle Essence Eau De Parfum'} 
-          prodDesc={'A floral and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.'} 
-          prodPrice={149.99} prodPriceOld={169.99} />
+        <ResultsSummary Reaction={70} Memory={82} Verbal={61} Visual={62} />
 
       </main>
     </>
