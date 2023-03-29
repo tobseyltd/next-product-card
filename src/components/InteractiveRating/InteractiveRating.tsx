@@ -62,7 +62,7 @@ export default function InteractiveRating(): JSX.Element {
 
                         <p className="text-orange/80 bg-dark-gray-blue/60  py-1 rounded-3xl text-center w-9/12 tracking-wide mt-8">You selected {rating} out of 5</p>
                         <p className="text-3xl text-white mt-7 font-semibold">Thank You!</p>
-                        <p className="text-white/70 text-center mt-2 leading-5">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+                        <p className="text-white/70 text-center mt-2 leading-5">We appreciate you taking the time to give a rating. If you ever need more support, don&apos;t hesitate to get in touch!</p>
                     </div>
                 </div>
             </div>
