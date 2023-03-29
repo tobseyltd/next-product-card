@@ -1,25 +1,15 @@
-import ProductCard from "@/components/ProductPreviewCard/preview-card";
-import Image from "next/image";
+import InteractiveRating from "@/components/InteractiveRating/InteractiveRating";
 import Header from "./header/header";
-import { Tooltip } from '@nextui-org/react';
+import { Tooltip, Image } from "@nextui-org/react";
 
-
-
-export default function Product_Card_Page(): JSX.Element {
+export default function InteractiveRating_Page(): JSX.Element {
 
     return (
 
         <div className="justify-between 2xl:p-10 2xl:w-screen 2xl:h-screen 2xl:flex 2xl:flex-col 2xl:items-center  bg-cream">
-
+            
             <Header />
-            <ProductCard
-                imgSrc={"/media/image-product-desktop.jpg"}
-                imgAlt={"Gabrielle Essence Eau De Parfum"}
-                imgSize={300} prodCat={"Perfume"}
-                prodTitle={"Gabrielle Essence Eau De Parfum"}
-                prodDesc={"A floral and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL."}
-                prodPrice={149.99}
-                prodPriceOld={169.99} />
+            <InteractiveRating />
 
             <section className="2xl:w-screen 2xl:flex 2xl:flex-col 2xl:items-center">
                 <div className="flex p-5  2xl:w-4/6 justify-center items-center">
@@ -65,6 +55,7 @@ export default function Product_Card_Page(): JSX.Element {
                     </Tooltip>
                 </div>
             </section>
+        
         </div>
     )
 }

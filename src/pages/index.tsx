@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import ResultsSummary from '@/components/ResultsSummary/results-summary'
+import InteractiveRating from '@/components/InteractiveRating/InteractiveRating'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home(): JSX.Element {
+
   return (
     <>
       <Head>
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className="md:w-screen md:h-screen flex flex-row justify-center items-center">
 
-        <ResultsSummary Reaction={70} Memory={82} Verbal={61} Visual={62} />
+        <InteractiveRating />
 
       </main>
     </>

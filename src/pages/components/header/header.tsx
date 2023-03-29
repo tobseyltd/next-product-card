@@ -2,7 +2,7 @@ import { Navbar, Text } from "@nextui-org/react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header(): JSX.Element {
 
     return (
 
@@ -13,6 +13,7 @@ export default function Header() {
                 disableBlur
                 variant="floating"
                 className="cream"
+                role={'main-nav'}
             >
                 <Navbar.Brand className="mr-7">
                     <Image

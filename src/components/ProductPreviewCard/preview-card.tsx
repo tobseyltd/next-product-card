@@ -1,7 +1,7 @@
 
 import { useState } from "react"
 import toast, { Toaster } from 'react-hot-toast'
-import { Input, Spacer, Container } from "@nextui-org/react"
+import { Input, Spacer } from "@nextui-org/react"
 
 type ProductCardProps = {
     imgSrc: string,
@@ -12,6 +12,14 @@ type ProductCardProps = {
     prodDesc: string,
     prodPrice: number,
     prodPriceOld: number
+}
+
+const notify = () => {
+
+    toast('Good Job! Feel free to use this component in your projects', {
+        icon: '👏',
+        position: "bottom-center"
+    });
 }
 
 export default function ProductCard({
@@ -25,7 +33,7 @@ export default function ProductCard({
     prodPrice,
     prodPriceOld
 
-}: ProductCardProps) {
+}: ProductCardProps): JSX.Element {
 
     const [title, setTitle]: any = useState({ prodTitle });
     const [description, setDescription]: any = useState({ prodDesc });
@@ -88,13 +96,7 @@ export default function ProductCard({
         }))
     }
 
-    const notify = () => {
-
-        toast('Good Job! Feel free to use this component in your projects', {
-            icon: '👏',
-            position: "bottom-center"
-        });
-    }
+    
 
     return (
 

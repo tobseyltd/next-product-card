@@ -26,6 +26,11 @@ module.exports = {
         'violet-blue' : 'hsla(256, 72%, 46%, 1)',
         'persian-blue' : 'hsla(241, 72%, 46%, 0)',
         'dark-gray-blue' : 'hsl(224, 30%, 27%)',
+        'dark-blue' : 'hsl(213, 19%, 18%)',
+        'very-dark-blue' : 'hsl(216, 12%, 8%)',
+        'medium-grey' : 'hsl(216, 12%, 54%)',
+        'light-grey' : 'hsl(217, 12%, 63%)',
+        'orange' : 'hsl(25, 97%, 53%)'
       }
     },
   },

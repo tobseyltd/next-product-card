@@ -11,13 +11,20 @@ type ResultsSummaryProps = {
     Visual: number
 
 }
+const notify = (): void => {
+
+    toast('Good Job! Feel free to use this component in your projects', {
+        icon: '👏',
+        position: "bottom-center"
+    });
+}
 
 export default function ResultsSummary({
     Reaction,
     Memory,
     Verbal,
     Visual
-}: ResultsSummaryProps) {
+}: ResultsSummaryProps): JSX.Element {
 
 
     const calcResult = (): number => {
@@ -40,13 +47,7 @@ export default function ResultsSummary({
         }
     }
 
-    const notify = () => {
-
-        toast('Good Job! Feel free to use this component in your projects', {
-            icon: '👏',
-            position: "bottom-center"
-        });
-    }
+  
 
 
     let result = calcResult()

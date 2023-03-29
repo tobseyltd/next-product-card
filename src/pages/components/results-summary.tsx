@@ -45,7 +45,7 @@ export default function ReultsSummary_Page() {
                             width="300px"
                             type="number"
                             placeholder="Insert Reaction Summary (number)"
-                            role={'Reaction Summary Change'}
+                            role={'Attribut Change'}
                             onChange={handle_ReactionChange}
 
                         />
@@ -55,7 +55,7 @@ export default function ReultsSummary_Page() {
                             width="300px"
                             type="number"
                             placeholder="Insert Memory Summary (number)"
-                            role={'Memory Summary Change'}
+                            role={'Attribut Change'}
                             onChange={handle_MemoryChange}
                             min={1}
                             max={100}
@@ -67,7 +67,7 @@ export default function ReultsSummary_Page() {
                             width="300px"
                             type="number"
                             placeholder="Insert Verbal Summary (number)"
-                            role={'Verbal Summary Change'}
+                            role={'Attribut Change'}
                             onChange={handle_VerbalChange}
 
                         />
@@ -77,7 +77,7 @@ export default function ReultsSummary_Page() {
                             width="300px"
                             type="number"
                             placeholder="Insert Visual Summary (number)"
-                            role={'Visual Summary Change'}
+                            role={'Attribut Change'}
                             onChange={handle_VisualChange}
 
                         />
