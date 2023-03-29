@@ -6,7 +6,7 @@ export default function InteractiveRating_Page(): JSX.Element {
 
     return (
 
-        <div className="justify-between 2xl:p-10 2xl:w-screen 2xl:h-screen 2xl:flex 2xl:flex-col 2xl:items-center  bg-cream">
+        <main className="md:w-screen md:h-screen md:p-10 flex flex-col items-center justify-between bg-cream">
             
             <Header />
             <InteractiveRating />
@@ -54,8 +54,7 @@ export default function InteractiveRating_Page(): JSX.Element {
                         />
                     </Tooltip>
                 </div>
-            </section>
-        
-        </div>
+            </section>      
+        </main>
     )
 }
