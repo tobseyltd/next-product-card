@@ -30,7 +30,14 @@ module.exports = {
         'very-dark-blue' : 'hsl(216, 12%, 8%)',
         'medium-grey' : 'hsl(216, 12%, 54%)',
         'light-grey' : 'hsl(217, 12%, 63%)',
-        'orange' : 'hsl(25, 97%, 53%)'
+        'orange' : 'hsl(25, 97%, 53%)',
+        'cool-blue' : 'hsl(239, 59%, 31%)',
+        'moderate-violet' : 'hsl(263, 55%, 52%)',
+        'dark-grayish-blue' : 'hsl(217, 19%, 35%)',
+        'dark-blackish-blue' : 'hsl(219, 29%, 14%)'
+      },
+      backgroundImage: {
+        'hero-pattern' : "url('/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg')"
       }
     },
   },

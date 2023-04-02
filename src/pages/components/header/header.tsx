@@ -12,7 +12,7 @@ export default function Header(): JSX.Element {
                 disableShadow
                 disableBlur
                 variant="floating"
-                className="cream"
+                className="bg-cream"
                 role={'main-nav'}
             >
                 <Navbar.Brand className="mr-7">
