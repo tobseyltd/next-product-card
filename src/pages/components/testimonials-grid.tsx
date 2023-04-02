@@ -7,7 +7,7 @@ export default function Testimonials(): JSX.Element {
     return (
 
         <>
-            <section className="w-screen h-screen grid md:grid-cols-4 md:grid-row-2 gap-8 p-10 md:p-20 lg:p-40">
+            <section className="w-screen h-screen grid md:grid-cols-4 md:grid-row-2 gap-8 p-10 md:p-20 lg:p-40 bg-cream">
 
                 {/* Card 1 */}
                 <div className="grid h-max md:col-span-2 px-10 md:px-10 py-10 bg-moderate-violet rounded-3xl shadow-xl">
