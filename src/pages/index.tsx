@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
-import Testimonials from './components/testimonials-grid'
+import AgeCalculator from '@/components/age-calculator-app/age-calculator-component'
 
 
 
@@ -21,7 +21,7 @@ export default function Home(): JSX.Element {
       {/* <Header /> */}
       <main className=" bg-cream background">
 
-        <Testimonials />
+        <AgeCalculator/>
 
       </main>
     </>

@@ -14,6 +14,29 @@ module.exports = {
       widest: '.1em',
       widest: '.35em',
     },
+    borderRadius: {
+      'none': '0',
+      'sm': '0.125rem',
+      DEFAULT: '0.25rem',
+      DEFAULT: '4px',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+      'full': '9999px',
+      'large': '12px',
+      'xl' : '17px',
+      'xtra' : '200px',
+    },
+    fontSize: {
+      'xxs' : '0.65rem',
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+      '7xl': '4.50rem'
+    },
     extend: {
       colors: {
         'cream' : 'hsl(30, 38%, 92%)',
@@ -34,7 +57,9 @@ module.exports = {
         'cool-blue' : 'hsl(239, 59%, 31%)',
         'moderate-violet' : 'hsl(263, 55%, 52%)',
         'dark-grayish-blue' : 'hsl(217, 19%, 35%)',
-        'dark-blackish-blue' : 'hsl(219, 29%, 14%)'
+        'dark-blackish-blue' : 'hsl(219, 29%, 14%)',
+        'purple' : 'hsl(259, 100%, 65%)',
+        'smokey-grey' : ' hsl(0, 1%, 44%)'
       },
       backgroundImage: {
         'hero-pattern' : "url('/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg')"
