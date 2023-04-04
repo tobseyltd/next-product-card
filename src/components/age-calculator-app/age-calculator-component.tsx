@@ -57,8 +57,8 @@ export default function AgeCalculator(): JSX.Element {
     const replaceFunc = (): void => {
         const forms = document.querySelectorAll<HTMLElement>("form");
 
-        forms.forEach((form, index) => {
-            replaceValidationUI(forms[index])
+        forms.forEach(form => {
+            replaceValidationUI(form)
         })
     }
     ////////////////////////////////////////////////////////////////////////////
