@@ -25,8 +25,9 @@ export function replaceValidationUI(form: any) {
             field.parentNode.insertAdjacentHTML("beforeend", "<div class='error-message text-red-600 text-xxs -mt-5 ml-2'>" +
                 field.validationMessage + "</div>");
             invalidFields[0].focus();
-            labels[index].classList.add('text-red-600')
-
+            labels.forEach((label: any) => {
+                label.classList.add('text-red-600')
+            })
         })
 
         // Remove red borders and text on validation
@@ -34,7 +35,9 @@ export function replaceValidationUI(form: any) {
             valid.classList.remove('border-rose-500')
 
             submitButton.addEventListener("click", () => {
-                labels[index].classList.remove('text-red-600')
+                labels.forEach((label: any) => {
+                    label.classList.remove('text-red-600')
+                })
             })
         })
     });
