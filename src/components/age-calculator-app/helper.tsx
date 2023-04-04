@@ -33,7 +33,7 @@ export function replaceValidationUI(form: any) {
             valid.classList.remove('border-rose-500')
 
             submitButton.addEventListener("click", () => {
-                labels.forEach((label: any) => {
+                labels.forEach(() => {
                     labels[index].classList.remove('text-red-600')
                 })
             })
