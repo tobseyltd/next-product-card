@@ -1,5 +1,3 @@
-import toast, { Toaster } from "react-hot-toast";
-
 interface ProductCardProps {
   imgSrc: string;
   imgAlt: string;
@@ -10,13 +8,6 @@ interface ProductCardProps {
   prodPrice: number;
   prodPriceOld: number;
 }
-
-const notify = () => {
-  toast("Good Job! Feel free to use this component in your projects", {
-    icon: "👏",
-    position: "bottom-center",
-  });
-};
 
 export default function ProductCard({
   imgSrc,
@@ -31,8 +22,6 @@ export default function ProductCard({
   return (
     <>
       <section>
-        <Toaster />
-
         <div className="md:wrapper inline-block m-10 md:w-2/6 xl:flex mxl:flex-row bg-white rounded-xl shadow-lg shadow-grey">
           <div className="img-container w-full xl:w-3/6">
             <img
@@ -60,10 +49,7 @@ export default function ProductCard({
               <p className="old-price line-through text-sm">${prodPriceOld}</p>
             </div>
 
-            <button
-              className="bg-green-900 text-white p-2.5 rounded-xl tracking-tighter w-full"
-              onClick={notify}
-            >
+            <button className="bg-green-900 text-white p-2.5 rounded-xl tracking-tighter w-full">
               <img
                 className="inline mr-2"
                 width={13}

@@ -35,6 +35,7 @@ export default function NotificationPage() {
 
           {notifications.map((notification) => (
             <NotificationItem
+              key={notification.userName}
               activity={notification.activity}
               media={notification.media}
               notificationSource={notification.notificationSource}
