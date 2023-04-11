@@ -1,16 +1,16 @@
-const data = [
+export const data = [
     {
       activity: "reacted to your recent post",
       notificationSource: "My first tournament today",
       userName: "Marc Webber",
-      userPic: "../media/notification-page/avatar-mark-webber.webp",
+      userPic: "/media/notification-page/avatar-mark-webber.webp",
       read: false,
     },
 
     {
       activity: "followed you",
       userName: "Angela Gray",
-      userPic: "../media/notification-page/avatar-angela-gray.webp",
+      userPic: "/media/notification-page/avatar-angela-gray.webp",
       read: false,
     },
 
@@ -56,4 +56,3 @@ const data = [
     },
   ]
 
-  export default data

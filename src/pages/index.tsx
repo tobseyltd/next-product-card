@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import NotificationPage from "@/components/notification-page/notification-page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +16,7 @@ export default function Home(): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Header /> */}
-      <main className=" bg-cream background">
-        <NotificationPage />
-      </main>
+      <main className=" bg-cream background"></main>
     </>
   );
 }
