@@ -1,6 +1,4 @@
-import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import { Input, Spacer } from "@nextui-org/react";
 
 interface ProductCardProps {
   imgSrc: string;
@@ -30,15 +28,10 @@ export default function ProductCard({
   prodPrice,
   prodPriceOld,
 }: ProductCardProps) {
-  const [title, setTitle] = useState({ prodTitle });
-  const [description, setDescription] = useState({ prodDesc });
-  const [category, setCategory] = useState({ prodCat });
-  const [image, setImage] = useState({ imgSrc });
-  const [price, setPrice] = useState({ prodPrice });
-  const [oldPrice, setOldPrice] = useState({ prodPriceOld });
-
   return (
     <section>
+      <Toaster />
+
       <div className="md:wrapper inline-block m-10 md:w-2/6 xl:flex mxl:flex-row bg-white rounded-xl shadow-lg shadow-grey">
         <div className="img-container w-full xl:w-3/6">
           <img
