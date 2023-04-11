@@ -11,7 +11,8 @@ export default function Home(): JSX.Element {
 
             <h1 className='text-5xl text-black mr-10'>Christian Seyboth</h1>
             <p className='text-black/60 text-xl'>Frontend Developer | Berlin, Germany</p>
-            <p className='text-3xl text-black/60 mt-5 font-thin'>I’m a software engineer specializing in building (and occasionally designing) exceptional websites & online shops. Currently, I’m focused on learning React, Next, Tailwind & Typescript</p>
+            <p className='text-3xl text-black/60 mt-5 font-thin'>I’m a software engineer specializing in building (and occasionally designing) exceptional 
+                websites & online shops. Currently, I’m focused on learning React, Next, Tailwind & Typescript</p>
 
             <div className="flex pt-8 2xl:w-4/6 items-center">
               <p className="mr-5 font-bold">Codewars:</p>

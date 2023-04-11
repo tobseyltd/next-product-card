@@ -59,7 +59,8 @@ module.exports = {
         'dark-grayish-blue' : 'hsl(217, 19%, 35%)',
         'dark-blackish-blue' : 'hsl(219, 29%, 14%)',
         'purple' : 'hsl(259, 100%, 65%)',
-        'smokey-grey' : ' hsl(0, 1%, 44%)'
+        'smokey-grey' : ' hsl(0, 1%, 44%)',
+        'light-grayish-blue' : 'hsl(210, 60%, 98%)',
       },
       backgroundImage: {
         'hero-pattern' : "url('/media/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg')"
